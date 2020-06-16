@@ -1,7 +1,7 @@
 # Storjshare Status Checker
 
 Small script package to collect stats from Storjshare and sends them to IFTTT.
-
+Forked from DMcP89 and updated to work with the curren Storage Node 3.0 running in docker on linux. 
 
 ### Setup
 
@@ -19,4 +19,4 @@ Small script package to collect stats from Storjshare and sends them to IFTTT.
     KEY={YOUR IFTTT KEY}
     TRIGGER={YOUR ITTT TRIGGER}
     ```
-4. Create webhook event on IFTTT.(https://gist.github.com/austinhuang0131/3846a66790ecc240ec470229b4318cdf/)
+4. Create webhook event on IFTTT.(https://ifttt.com/maker_webhooks )

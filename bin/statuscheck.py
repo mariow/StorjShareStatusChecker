@@ -2,6 +2,8 @@
 ######################################################
 # Orignally written by: Dave McPherson, 2017
 # https://github.com/DMcP89/StorjShareStatusChecker
+# Updated for Sottrage Node 3.0: 
+# https://github.com/mariow/StorjShareStatusChecker
 #######################################################
 
 import demjson
@@ -19,7 +21,7 @@ config.read(d + "/conf/properties.ini")
 
 # Local Functions
 def parse_storj_stats(stats):
-    parsed_result = demjson.decode(stats.replace("[", "").replace("]", ""))
+    parsed_result = demjson.decode(stats)
     return parsed_result
 
 
